@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "pending",
+	name: "p",
 	version: "1.0.5",
 	credits: "ryuko",
 	prefix: false,
@@ -23,7 +23,7 @@ module.exports.languages = {
     "en": {
         "invaildNumber": "%1 is not an invalid number",
         "cancelSuccess": "refused %1 thread",
-        "notiBox": "group has been approved, you can now use the bot",
+        "notiBox": "আসালামু আলাইকুম 🥰 আপনাদের গ্রুপে আমায় অ্যাড করার জন্য ধন্যবাদ 😍 আমি আপনাদের মাঝে একটু মজা করার জন্য অ্যাড হইচি পিলিজ কেও রিমুভ করেন না 🤟 আমার জন্য কোনো সমস্যা হলে আমার সব ফাহিম কে জানাইবেন ধন্যবাদ",
         "approveSuccess": "approved successfully %1 threads",
 
         "cantGetPendingList": "can't get the pending list",
