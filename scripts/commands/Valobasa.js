@@ -16,16 +16,16 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf("❤️")==0 || body.indexOf("🥰")==0 || body.indexOf("😍")==0 || body.indexOf("😒")==0) {
+	if (body.indexOf("😍")==0 || body.indexOf("❤️")==0 || body.indexOf("🥰")==0 || body.indexOf("😒")==0) {
 		var msg = {
-				body: "এতো ভালোবাসা কই পাও আমার বস ফাহিম কেও একটু দাও 😚🥀",
-				attachment: fs.createReadStream(__dirname + `/Nayan/Valobasa.mp3`)
+				body: "এতো ভালোবাসা কই পাও আমার বস ফাহিম কেও একটু দাও😚🥀",
+				attachment: fs.createReadStream(__dirname + `/Nayan/valobasa.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😁", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😍", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
 
   }
-}
+						   }
